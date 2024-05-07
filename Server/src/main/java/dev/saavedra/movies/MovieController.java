@@ -12,7 +12,7 @@ import java.util.OptionalInt;
 
 @RestController
 @RequestMapping("/api/v1/movies")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*")   //added CrossOrigin
 public class MovieController {
     @Autowired
     private MovieService movieService;
